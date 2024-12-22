@@ -39,7 +39,7 @@ resource "aws_security_group" "runner-sg" {
     ipv6_cidr_blocks = []
     self             = false
     prefix_list_ids  = []
-    security_groups  = []
+    security_groups  = ["sept29"]
   }
 
   ingress {
